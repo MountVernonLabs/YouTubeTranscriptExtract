@@ -12,9 +12,11 @@ sudo chmod a+rx /usr/local/bin/youtube-dl
 ```
 
 ## Usage
-1) Edit video.list.  Place one line for each YouTube video ID in the file.
-2) In terminal run sh get-transcripts.sh
-
+1. Edit video.list.  Place one line for each YouTube video ID in the file.
+2. In terminal run 
+``` 
+sh get-transcripts.sh
+```
 The script will then run and produce two files:
 - [YOUTUBEID].srt - this is your standard caption file
 - [YOUTUBEID].txt - this is the raw transcript 
